@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+}
+
 div.main
 {
   background-color: black;
@@ -14,7 +18,7 @@ div.inner_main
 
 h1.mtitle
 {
-  padding: 50px;
+  padding: 10px;
   padding-left: 250px;
   font-size: huge;
 }
@@ -28,4 +32,13 @@ div.canvas_div
 canvas.canvastyle
 {
   border:1px solid #aaa;
+  background-color: darkblue;
+}
+
+div.infodiv
+{
+  min-height: 60px;
+  padding: 5px;
+  color: red;
+  border: 1px solid #faa;
 }

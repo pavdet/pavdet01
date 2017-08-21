@@ -7,13 +7,17 @@
   <script type="text/javascript" src="js/shaders/vertexshader01.js"></script>
   <script type="text/javascript" src="js/shaders/fragmentshader01.js"></script>
   <script type="text/javascript" src="js/webglinit.js" charset="utf-8"></script>
+  <script type="text/javascript" src="vendor/gl-matrix-min.js" charset="utf-8"></script>
 </head>
-<body>
+<body onload="startgl()">
   <div class="main">
     <div class="inner_main">
       <h1 class="mtitle">WebGL test 01</h1>
       <div class="canvas_div">
-        <canvas id="webglcanvas" width="600" height="400" class="canvastyle"></canvas>
+        <canvas id="wcs" width="600" height="400" class="canvastyle"></canvas>
+      </div>
+      <div id="debin" class="infodiv">
+
       </div>
     </div>
   </div>
